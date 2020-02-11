@@ -2,17 +2,16 @@
 @import 'abstracts/variables';
 
 @import 'base/animations';
+@import 'base/utilities';
 @import 'base/base';
 @import 'base/typography';
 
+@import 'components/navbar';
 @import 'components/button';
-@import 'components/card';
-@import 'components/form';
-@import 'components/popup';
+@import 'components/loginForm';
 
 @import 'layout/footer';
-@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/navigation';
 
-@import 'pages/home';
+// @import 'pages/home';

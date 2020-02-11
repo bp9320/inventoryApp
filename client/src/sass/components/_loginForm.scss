@@ -1,0 +1,20 @@
+.form {
+  width: 66vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to top right,
+      var(--color-gradient-light),
+      var(--color-gradient-dark)
+    ),
+    url(../../images/cork-bkg.jpg);
+
+  &__textInput {
+    display: block;
+  }
+}
