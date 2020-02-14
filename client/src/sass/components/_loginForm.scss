@@ -48,7 +48,11 @@
       outline: none;
       border: none;
       transform: scale(1.05);
-      background-color: var(--color-secondary-light);
+      background-image: linear-gradient(
+        to right,
+        var(--color-primary-light),
+        var(--color-primary-dark)
+      );
     }
   }
 
